@@ -17,15 +17,18 @@ const Resume = () => {
             <img src='/images/vectors/manOnTable.svg' alt='svg' />
           </div>
           <div className='col l6 s12 white-text' style={{ marginTop: "20px" }}>
-            <h5>Bachelor of Technology - CSE</h5>
+            <h5>Bachelor of Technology</h5>
+            <h6>Computer Science & Engineering</h6>
             <h6> 2016-20 </h6>
-            <h6>Guru Jambheshwar University, Hisar (Haryana)</h6>
-            <h5 style={{ marginTop: "3rem" }}>12th from Up Board</h5>
+
+            <h5 style={{ marginTop: "3rem" }}>12th Standard</h5>
+            <h6>Science and Mathematics</h6>
             <h6> 2015-16 </h6>
-            <h6>H.B. Inter College, Aligarh (U.P.)</h6>
-            <h5 sstyle={{ marginTop: "3rem" }}>10th from Up Board</h5>
+
+            <h5 sstyle={{ marginTop: "3rem" }}>10th Standard</h5>
+            <h6>Science and Mathematics</h6>
             <h6> 2013-14 </h6>
-            <h6>H.B. Inter College, Aligarh (U.P.)</h6>
+
             <a
               className='waves-effect waves-light btn-small slide-btn'
               href='docs/Resume.pdf'>
@@ -43,30 +46,37 @@ const Resume = () => {
                   <h5>Certifications</h5>
                 </div>
 
-                <div className='certificate'>
-                  <a class='carousel-item' href='#two!'>
-                    <img src='docs/certificates/mySql.jpeg' alt='MySql' />
-                    <h6 className='white-text center'>My SQL</h6>
-                  </a>
+                <div className='carousel'>
+                <a className='carousel-item' href='#one!'>
+                  <img
+                    src='docs/certificates/aws-architect-associate.png'
+                    alt='awslogo'
+                  />
+                  <h6 className='white-text center'>AWS Architect</h6>
+                </a>
 
-                  <a class='carousel-item' href='#two!'>
-                    <img
-                      src='docs/certificates/ReactJS-Certificate.png'
-                      alt='reactjs'
-                    />
-                    <h6 className='white-text center'>React JS</h6>
-                  </a>
-
-                  <a class='carousel-item' href='#two!'>
-                    <img src='docs/certificates/htmlCss.jpeg' alt='HtmlCss' />
-                    <h6 className='white-text center'>HTML5 CSS3</h6>
-                  </a>
-
-                  <a class='carousel-item' href='#two!'>
-                    <img src='docs/certificates/mernStack.jpg' alt='HtmlCss' />
-                    <h6 className='white-text center'>MERN STACK</h6>
-                  </a>
-                </div>
+                <a className='carousel-item' href='#two!'>
+                  <img
+                    src='docs/certificates/docker.png'
+                    alt='docker'
+                  />
+                  <h6 className='white-text center'>Docker</h6>
+                </a>
+                <a className='carousel-item' href='#three!'>
+                  <img
+                    src='docs/certificates/aws-pro.png'
+                    alt='Kuberetes'
+                  />
+                  <h6 className='white-text center'>AWS SA-PRO</h6>
+                </a>
+                <a className='carousel-item' href='#four!'>
+                  <img
+                    src='docs/certificates/mySql.jpeg'
+                    alt='cicd'
+                  />
+                  <h6 className='white-text center'>Mysql</h6>
+                </a>
+              </div>
               </div>
             </div>
           </div>

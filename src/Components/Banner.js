@@ -8,12 +8,12 @@ const Banner = () => {
           <ul class='slides '>
             <li>
               <img src='../images/slides/slideOne.jpg' alt='slide one' />
-              <div class='caption center-align white-text'>
+              <div class='caption center-align dark-text'>
                 <h2> &lt;/&gt;</h2>
-                <h6 class='light text-lighten-3'>
-                  <span style={{ color: "#F5D76E" }}>Freelance WEB</span>{" "}
-                  developer
-                </h6>
+                <h4 class='light text-lighten-3'>
+                  <span style={{ color: "#EB8B20" }}>DevOps</span>{" "}
+                  Engineer
+                </h4>
                 <div class='row '>
                   <div class='col l12 s12 '>
                     <a
@@ -30,10 +30,10 @@ const Banner = () => {
               <img src='../images/slides/slideThree.jpg' alt='slide one' />
               <div class='caption center-align white-text'>
                 <h2> &lt;/&gt;</h2>
-                <h6 class='light text-lighten-3'>
-                  <span style={{ color: "#F5D76E" }}>Freelance WEB</span>{" "}
-                  developer
-                </h6>
+                <h4 class='light text-lighten-3'>
+                  <span style={{ color: "#EB8B20" }}>AWS</span>{" "}
+                  Solution Architect
+                </h4>
                 <div class='row '>
                   <div class='col l12 s12 '>
                     <a
@@ -50,11 +50,10 @@ const Banner = () => {
               <img src='../images/slides/slideTwo.jpg' alt='slide one' />
               <div class='caption center-align white-text'>
                 <h2> &lt;/&gt;</h2>
-                <h6 class='light text-lighten-3'>
-                  <span style={{ color: "#F5D76E" }}>Freelance WEB</span>{" "}
-                  developer
-                </h6>
-
+                <h4 class='light text-lighten-3'>
+                  <span style={{ color: "#EB8B20" }}>DevOps</span>{" "}
+                  Engineer
+                </h4>
                 <div class='row '>
                   <div class='col l12 s12 '>
                     <a
@@ -69,7 +68,7 @@ const Banner = () => {
             </li>
           </ul>
         </div>
-        <div class='support'>
+        {/* <div class='support'>
           <div>
             <a href='https://github.com/thecyberbaby'>
               <img src='images/icons/github.png' alt='github' />
@@ -87,7 +86,7 @@ const Banner = () => {
               <img src='images/icons/instagram.ico' alt='instagram' />
             </a>
           </div>
-        </div>
+        </div> */}
       </section>
     </div>
   );

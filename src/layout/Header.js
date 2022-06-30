@@ -4,12 +4,11 @@ const Header = () => {
   return (
     <div>
       <section className='fnavbar'>
-        <div className='navbar-fixed' id='navbar'>
+        <div className='navbar' id='navbar'>
           <nav className='transparent z-depth-0'>
             <div className='nav-wrapper'>
               <a href='#navbar' className='brand-logo '>
-                {" "}
-                &lt;Nishant /&gt;{" "}
+                Nishant
               </a>
               <a
                 href='...'
@@ -39,7 +38,7 @@ const Header = () => {
         </div>
         <ul className='sidenav' id='mobile-demo'>
           <img
-            src='images/icons/favicon.png'
+            src='favicon.png'
             alt='logo'
             className='side-nav-logo'
           />

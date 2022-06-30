@@ -9,95 +9,73 @@ const Skills = () => {
       <section className='fprogress  skills'>
         <div className='row container'>
           <div className='col l6 s12 white-text '>
-            <p>LINUX - 75% (RHEL, Debian)</p>
-            <div id='myProgress'>
-              <div id='myBar' style={{ width: "75%" }}></div>
-            </div>
-
-            <p>JAVASCRIPT - 70%</p>
-            <div id='myProgress'>
-              <div id='myBar' style={{ width: "70%" }}></div>
-            </div>
-
-            <p>REACT - 65%</p>
-            <div id='myProgress'>
-              <div id='myBar' style={{ width: "65%" }}></div>
-            </div>
-
-            <p>HTML CSS - 80%</p>
-            <div id='myProgress'>
-              <div id='myBar' style={{ width: "80%" }}></div>
-            </div>
-
-            <p>MY SQL - 60%</p>
-            <div id='myProgress'>
-              <div id='myBar' style={{ width: "60%" }}></div>
-            </div>
-
-            <p>VS CODE - 85%</p>
+            <p>AWS - 85% </p>
             <div id='myProgress'>
               <div id='myBar' style={{ width: "85%" }}></div>
             </div>
 
-            <section id='skills' className='skills'>
+            <p>DOCKER - 80%</p>
+            <div id='myProgress'>
+              <div id='myBar' style={{ width: "80%" }}></div>
+            </div>
+
+            <p>KUBERNETES - 75%</p>
+            <div id='myProgress'>
+              <div id='myBar' style={{ width: "75%" }}></div>
+            </div>
+
+            <p>TERRAFORM - 75%</p>
+            <div id='myProgress'>
+              <div id='myBar' style={{ width: "75%" }}></div>
+            </div>
+
+            <p>CI / CD - 80%</p>
+            <div id='myProgress'>
+              <div id='myBar' style={{ width: "80%" }}></div>
+            </div>
+
+            <p>LOGS & MONITORING - 85%</p>
+            <div id='myProgress'>
+              <div id='myBar' style={{ width: "75%" }}></div>
+            </div>
+
+            <section id='skills' className='skills r'>
               <div className='carousel'>
                 <a className='carousel-item' href='#one!'>
                   <img
-                    src='images/thumbnails/javascript.png'
-                    alt='javascript thumbnail'
+                    src='images/thumbnails/awslogo.jpg'
+                    alt='awslogo'
                   />
-                  <h6 className='white-text center'>Javascript</h6>
+                  <h6 className='white-text center'>AWS</h6>
                 </a>
 
                 <a className='carousel-item' href='#three!'>
                   <img
-                    src='images/thumbnails/bootstrap.png'
-                    alt='bootstrap thumbnail'
+                    src='images/thumbnails/docker.jpg'
+                    alt='docker'
                   />
-                  <h6 className='white-text center'>Bootstrap</h6>
+                  <h6 className='white-text center'>Docker</h6>
                 </a>
                 <a className='carousel-item' href='#four!'>
                   <img
-                    src='images/thumbnails/React.png'
-                    alt='react thumbnail'
+                    src='images/thumbnails/k8s.jpg'
+                    alt='Kuberetes'
                   />
-                  <h6 className='white-text center'>React</h6>
+                  <h6 className='white-text center'>Kubernetes</h6>
                 </a>
                 <a className='carousel-item' href='#five!'>
                   <img
-                    src='images/thumbnails/vscode.png'
-                    alt='vscode thumbnail'
+                    src='images/thumbnails/cicd.jpg'
+                    alt='cicd'
                   />
-                  <h6 className='white-text center'>Vs Code</h6>
+                  <h6 className='white-text center'>CI / CD</h6>
                 </a>
                 <a className='carousel-item' href='#six!'>
                   <img
-                    src='images/thumbnails/materialize.png'
+                    src='images/thumbnails/terraform.jpeg'
                     alt='materialize thumbnail'
                   />
-                  <h6 className='white-text center'>Materialize CSS</h6>
-                </a>
-                <a className='carousel-item' href='#seven!'>
-                  <img
-                    src='images/thumbnails/htmlCss.png'
-                    alt='html css thumbnail'
-                  />
-                  <h6 className='white-text center'>Html-CSS</h6>
-                </a>
-                <a className='carousel-item' href='#eight!'>
-                  <img
-                    src='images/thumbnails/photoshop.png'
-                    alt='photoshop thumbnail'
-                  />
-                  <h6 className='white-text center'>Photoshop</h6>
-                </a>
-
-                <a className='carousel-item' href='#ten!'>
-                  <img
-                    src='images/thumbnails/AdobeXD.png'
-                    alt='adobe xd thumbnail'
-                  />
-                  <h6 className='white-text center'>Adobe-XD</h6>
+                  <h6 className='white-text center'>Terraform</h6>
                 </a>
               </div>
             </section>

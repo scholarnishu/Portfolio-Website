@@ -8,9 +8,7 @@ const Footer = () => {
           <div className='col l4 s12 '>
             <h4>About me</h4>
             <p>
-              I am a self motivated web designer. I always intented complete
-              works under the give time period with my best of skills and
-              experiences.
+            I'm responsible for the design, management, and maintenance of cloud infrastructure.
             </p>
             <a
               className='waves-effect waves-light btn-small slide-btn'
@@ -21,12 +19,12 @@ const Footer = () => {
           </div>
           <div className='col l4 right s12'>
             <h4 className='white-text'>Social Links</h4>
-            <p className=' text-lighten-4'>Contact me on social media</p>
+            <p className=' text-lighten-4'>Feel free to reach me out</p>
             <p className=' text-lighten-4'>
-              we can discuss more there as well.
+              over the social media.
             </p>
             <div>
-              <a href='https://github.com/thecyberbaby'>
+              <a href='https://github.com/scholarnishu'>
                 <img src='images/icons/github.png' alt='github' />
               </a>
 
@@ -37,7 +35,7 @@ const Footer = () => {
               </a>
 
               <a
-                href='https://www.instagram.com/thecyberbaby/'
+                href='https://www.instagram.com/scholarnishu/'
                 style={{ marginLeft: "20px" }}>
                 <img src='images/icons/instagram.ico' alt='instagram' />
               </a>
@@ -47,7 +45,7 @@ const Footer = () => {
 
         <div className='footer-copyright'>
           <div className='row container'>
-            <div class='col l4 s12'>© 2021 Copyright @ Nishant Sharma</div>
+            <div class='col l4 s12'>© 2022 Copyright @ Nishant Sharma</div>
             <div className='col l4 right s12 '>
               <a
                 className='white-text text-lighten-4 '

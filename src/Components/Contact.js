@@ -13,7 +13,7 @@ const Contact = () => {
               Leave me a message
             </h5>
             <form
-              action='https://formspree.io/f/mgepzaow'
+              action='https://formspree.io/f/mpzbegjp'
               method='post'
               target='_blank'>
               <input
@@ -67,7 +67,7 @@ const Contact = () => {
                 </p>
                 <p>
                   <i className='material-icons'>mail</i>
-                  sharmanishu.dev@gmail.com
+                  nishantsharma9358@gmail.com
                 </p>
                 <p>
                   <i className='material-icons'>place</i>Aligarh - Uttar Pradesh

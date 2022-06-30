@@ -20,7 +20,6 @@ html {
   margin-top: 11px;
 }
 #button::after {
-  /* content: "\f077"; */
   font-family: cursive;
   font-weight: normal;
   font-style: normal;
@@ -116,6 +115,11 @@ nav {
   margin-top: 1px;
   margin-bottom: 1px;
 }
+
+.sidenav img {
+  border-radius: 50px;
+}
+
 /* slider */
 .fslider {
   position: sticky;
@@ -124,7 +128,7 @@ nav {
 .slide-btn {
   border: 2px;
   border-radius: 2px;
-  background-color: #430b70;
+  background-color: #4153F1;
   margin-top: 20px;
   margin-left: 10px;
   position: relative;
@@ -159,6 +163,12 @@ nav {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
+.carousel .carousel-item img {
+  box-shadow: 3px 2px 5px #dedbdb;
+  border-radius: 10px;
+}
+
 /* progress bar */
 .fprogress {
   margin-left: 20px;
@@ -172,8 +182,10 @@ nav {
 #myBar {
   /* width: 50%; */
   height: 15px;
-  background-color: rgb(14, 107, 168);
+  background-color: rgb(25, 142, 220);
   border-radius: 15px;
+  /* box-shadow: 3px 2px 3px #dedbdb; */
+
 }
 
 .card {
@@ -200,9 +212,16 @@ nav {
 
 /* resume */
 
-.certificate .carousel-item img {
-  box-shadow: 3px 2px 5px #fdfdfd;
+.carousel .carousel-item img {
+  box-shadow: 3px 2px 5px #dedbdb;
+  border-radius: 10px;
 }
+
+.certificate .carousel-item img {
+  box-shadow: 3px 2px 5px #dedbdb;
+  border-radius: 10px;
+}
+
 
 /* contact */
 .contact {
