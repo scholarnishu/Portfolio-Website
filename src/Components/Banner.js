@@ -11,7 +11,7 @@ const Banner = () => {
               <div class='caption center-align dark-text'>
                 <h2> &lt;/&gt;</h2>
                 <h4 class='light text-lighten-3'>
-                  <span style={{ color: "#EB8B20" }}>DevOps</span>{" "}
+                  <span style={{ color: "#F6CF65" }}>DevOps</span>{" "}
                   Engineer
                 </h4>
                 <div class='row '>
@@ -31,7 +31,7 @@ const Banner = () => {
               <div class='caption center-align white-text'>
                 <h2> &lt;/&gt;</h2>
                 <h4 class='light text-lighten-3'>
-                  <span style={{ color: "#EB8B20" }}>AWS</span>{" "}
+                  <span style={{ color: "#F6CF65" }}>AWS</span>{" "}
                   Solution Architect
                 </h4>
                 <div class='row '>
@@ -51,7 +51,7 @@ const Banner = () => {
               <div class='caption center-align white-text'>
                 <h2> &lt;/&gt;</h2>
                 <h4 class='light text-lighten-3'>
-                  <span style={{ color: "#EB8B20" }}>DevOps</span>{" "}
+                  <span style={{ color: "#F6CF65" }}>DevOps</span>{" "}
                   Engineer
                 </h4>
                 <div class='row '>
@@ -68,25 +68,6 @@ const Banner = () => {
             </li>
           </ul>
         </div>
-        {/* <div class='support'>
-          <div>
-            <a href='https://github.com/thecyberbaby'>
-              <img src='images/icons/github.png' alt='github' />
-            </a>
-
-            <a
-              href='https://www.linkedin.com/in/nishant-sharma-b016a818b/'
-              style={{ marginLeft: "20px" }}>
-              <img src='images/icons/linkedin.ico' alt='linkedin' />
-            </a>
-
-            <a
-              href='https://www.instagram.com/thecyberbaby/'
-              style={{ marginLeft: "20px" }}>
-              <img src='images/icons/instagram.ico' alt='instagram' />
-            </a>
-          </div>
-        </div> */}
       </section>
     </div>
   );

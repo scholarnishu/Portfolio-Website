@@ -24,18 +24,18 @@ const Footer = () => {
               over the social media.
             </p>
             <div>
-              <a href='https://github.com/scholarnishu'>
+              <a href='https://github.com/thecyberbaby'>
                 <img src='images/icons/github.png' alt='github' />
               </a>
 
               <a
-                href='https://www.linkedin.com/in/nishant-sharma-b016a818b/'
+                href='https://www.linkedin.com/in/thecyberbaby/'
                 style={{ marginLeft: "20px" }}>
                 <img src='images/icons/linkedin.ico' alt='linkedin' />
               </a>
 
               <a
-                href='https://www.instagram.com/scholarnishu/'
+                href='https://www.instagram.com/thecyberbaby/'
                 style={{ marginLeft: "20px" }}>
                 <img src='images/icons/instagram.ico' alt='instagram' />
               </a>
