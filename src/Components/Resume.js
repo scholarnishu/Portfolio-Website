@@ -52,7 +52,7 @@ const Resume = () => {
                     src='docs/certificates/aws-architect-associate.png'
                     alt='awslogo'
                   />
-                  <h6 className='white-text center'>AWS Architect</h6>
+                  <h6 className='white-text center'>AWS SAA</h6>
                 </a>
 
                 <a className='carousel-item' href='#two!'>
@@ -62,13 +62,13 @@ const Resume = () => {
                   />
                   <h6 className='white-text center'>Docker</h6>
                 </a>
-                <a className='carousel-item' href='#three!'>
+                {/* <a className='carousel-item' href='#three!'>
                   <img
                     src='docs/certificates/aws-pro.png'
                     alt='Kuberetes'
                   />
                   <h6 className='white-text center'>AWS SA-PRO</h6>
-                </a>
+                </a> */}
                 <a className='carousel-item' href='#four!'>
                   <img
                     src='docs/certificates/mySql.jpeg'
