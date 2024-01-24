@@ -45,7 +45,7 @@ const Footer = () => {
 
         <div className='footer-copyright'>
           <div className='row container'>
-            <div class='col l4 s12'>© 2022 Copyright @ Nishant Sharma</div>
+            <div class='col l4 s12'>© 2024 Copyright @ Nishant Sharma</div>
             <div className='col l4 right s12 '>
               <a
                 className='white-text text-lighten-4 '
