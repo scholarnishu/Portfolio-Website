@@ -70,8 +70,7 @@ const Contact = () => {
                   nishantsharma9358@gmail.com
                 </p>
                 <p>
-                  <i className='material-icons'>place</i>Aligarh - Uttar Pradesh
-                  (INDIA)
+                  <i className='material-icons'>place</i>India
                 </p>
               </address>
             </div>
